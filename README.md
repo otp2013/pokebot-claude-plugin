@@ -57,4 +57,4 @@ Email contact@pokebot.ai. Setup guide: https://pokebot.ai/claude
 
 ## License
 
-The plugin's files are released under the MIT license; see LICENSE. The PokeBot name and the Pokie mascot icon are PokeBot's brand assets and are not covered by that license.
+The plugin's files are released under the MIT license; see LICENSE. The PokeBot name and the PokeBot robot icon are PokeBot's brand assets and are not covered by that license.
