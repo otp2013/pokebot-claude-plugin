@@ -42,8 +42,9 @@ You can also type / in the message box and pick a PokeBot skill. In Claude Code,
 
 - The plugin connects Claude to PokeBot's MCP server at https://connect.pokebot.ai/mcp. You sign in through OAuth, and the plugin holds no keys or passwords.
 - When Claude runs a PokeBot tool, it sends PokeBot that tool's inputs only: for example your resume text, a job description, your current and target roles and career goals, and your interview answers. PokeBot doesn't receive the rest of your conversation.
-- Results are saved to your PokeBot account, so you can open them later in the PokeBot app. To skip saving a resume score, job match, cover letter or career plan, ask Claude not to save it. Mock interviews are always saved to your PokeBot interview history. Resume scores and job matches don't keep your resume text itself.
+- Results are saved to your PokeBot account, so you can open them later in the PokeBot app. To skip saving a resume score, job match, cover letter or career plan, ask Claude not to save it. The full resume text isn't saved with resume scores and job matches, though a result can quote parts of it. Mock interviews are always kept in your PokeBot interview history, including the details you start them with (such as resume text and a job description) and your answers.
 - The plugin contains only instructions for Claude and the server address above. It runs no code on your computer and sends data nowhere else.
+- Your prompts and PokeBot's results are also processed by Anthropic as part of Claude, under Anthropic's own privacy policy.
 - You can end Claude's access at any time in PokeBot under Settings > Integrations > Connected apps.
 
 Privacy policy: https://pokebot.ai/privacy#claude

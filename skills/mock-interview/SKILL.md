@@ -30,7 +30,7 @@ Use PokeBot's tools `start-interview`, `submit-answer` and `end-interview`.
 
 - One question at a time. Never answer a question for the user, and never submit anything they didn't write as their answer. If they ask something else, such as to repeat the question, reply without calling `submit-answer`.
 - Show only the scores and feedback PokeBot returned. Don't add scores of your own.
-- Interviews are always saved to the user's PokeBot interview history. If the user asks not to save one, tell them this before you start.
+- Interviews are always saved to the user's PokeBot interview history, including the details used to start them (such as resume text) and the user's answers. If the user asks not to save one, tell them this before you start.
 - If PokeBot returns a usage-limit message, show it to the user as it is, including its link, and don't retry.
 - If PokeBot says the session wasn't found or isn't taking answers, tell the user and offer to start a new interview.
 
