@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "pokebot": {
+      "type": "http",
+      "url": "https://connect.pokebot.ai/mcp"
+    }
+  }
+}

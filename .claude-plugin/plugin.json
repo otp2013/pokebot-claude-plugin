@@ -1,0 +1,28 @@
+{
+  "name": "pokebot",
+  "displayName": "PokeBot.ai Career Coach",
+  "version": "1.0.0",
+  "description": "Skills that run PokeBot's career tools in Claude: text mock interviews, resume scores, resume-to-job matches, cover letters and career plans, with results saved to your PokeBot account.",
+  "author": {
+    "name": "PokeBot",
+    "email": "support@pokebot.ai",
+    "url": "https://pokebot.ai"
+  },
+  "homepage": "https://pokebot.ai/claude",
+  "repository": "https://github.com/otp2013/pokebot-claude-plugin",
+  "license": "MIT",
+  "keywords": [
+    "career",
+    "job-search",
+    "mock-interview",
+    "interview-practice",
+    "resume",
+    "cover-letter",
+    "career-planning"
+  ],
+  "icon": "./icon.png",
+  "documentationUrl": "https://pokebot.ai/claude",
+  "supportUrl": "https://pokebot.ai/contact",
+  "privacyPolicyUrl": "https://pokebot.ai/privacy#claude",
+  "termsOfServiceUrl": "https://pokebot.ai/terms"
+}
