@@ -12,7 +12,7 @@ Use PokeBot's `generate-cover-letter` tool.
    - If the user says what the letter is for, set purpose to job-application, internal-transfer, career-change, referral or speculative.
    - If they ask for a tone, pass it as tone, for example "Professional" or "Warm".
 3. Show the letter PokeBot wrote. If the result has a link to the saved copy, share it.
-4. If the user then asks for changes, you can edit the letter with them in the chat. Tell them the copy saved in PokeBot is the original.
+4. If the user then asks for changes, you can edit the letter with them in the chat. Use only facts from their resume or what they tell you; don't add experience, skills, employers or numbers they didn't give you. If a copy was saved, tell them the saved copy is PokeBot's original and doesn't include these edits.
 
 ## Saving
 
@@ -25,9 +25,9 @@ The letter is saved to the user's PokeBot account by default. If the user asks n
 
 ## If PokeBot isn't connected
 
-If PokeBot's tools aren't available in this chat, tell the user how to turn them on:
+If PokeBot's tools aren't available in this chat, tell the user how to turn them on, and in the same message offer to help without PokeBot instead:
 
-1. Connect PokeBot from this plugin's **Connectors** tab, or from **Customize > Connectors**, and sign in with a PokeBot account. A free account works.
-2. Turn PokeBot on for this chat with **+ > Connectors**.
+1. Connect PokeBot from this plugin's **Connectors** tab, or from **Customize > Connectors**, and sign in with a PokeBot account. A free account works. On a Team or Enterprise plan, an Owner may need to add PokeBot first.
+2. Turn PokeBot on for this chat with **+ > Connectors**. In Claude Code, run `/mcp` and sign in to pokebot instead.
 
-If the user would rather not use PokeBot, help them without it, and don't present your own letter as PokeBot's.
+If you help without PokeBot, don't present your own letter as PokeBot's.

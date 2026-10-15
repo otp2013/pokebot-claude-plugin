@@ -24,9 +24,9 @@ The result is saved to the user's PokeBot account by default. If the user asks n
 
 ## If PokeBot isn't connected
 
-If PokeBot's tools aren't available in this chat, tell the user how to turn them on:
+If PokeBot's tools aren't available in this chat, tell the user how to turn them on, and in the same message offer to help without PokeBot instead:
 
-1. Connect PokeBot from this plugin's **Connectors** tab, or from **Customize > Connectors**, and sign in with a PokeBot account. A free account works.
-2. Turn PokeBot on for this chat with **+ > Connectors**.
+1. Connect PokeBot from this plugin's **Connectors** tab, or from **Customize > Connectors**, and sign in with a PokeBot account. A free account works. On a Team or Enterprise plan, an Owner may need to add PokeBot first.
+2. Turn PokeBot on for this chat with **+ > Connectors**. In Claude Code, run `/mcp` and sign in to pokebot instead.
 
-If the user would rather not use PokeBot, help them without it, and don't present your own scores or feedback as PokeBot's.
+If you help without PokeBot, don't present your own scores or feedback as PokeBot's.

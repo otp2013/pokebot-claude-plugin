@@ -24,7 +24,7 @@ If the user asks for more than one, run each. If it isn't clear which one they w
    - growth plan: timeline, intensity (light, moderate or intensive), target_skills, learning_style, preferred_formats, focus_areas.
 3. Growth plans come in four lengths: 1-month, 3-months (the default), 6-months and 1-year. For any other length, use the closest one and tell the user it was rounded.
 4. If the user shared their resume in this chat for this request, you can pass it as resume_text to `analyze-career-goals` or `analyze-skill-gap`.
-5. Show the result as PokeBot returned it. Don't change its scores, timelines or plan, or add your own.
+5. Show the result as PokeBot returned it. Don't change its scores, timelines or plan, or add your own. A growth plan's text covers the first 4 weeks in full; the full plan is in the copy saved to PokeBot. If the user asks for later weeks, share the saved link, and don't write those weeks yourself. If they asked not to save a growth plan, tell them that only the first 4 weeks will be shown in full.
 6. If the result has a link to the saved copy, share it.
 
 ## Saving
@@ -37,9 +37,9 @@ If PokeBot returns a usage-limit message, show it to the user as it is, includin
 
 ## If PokeBot isn't connected
 
-If PokeBot's tools aren't available in this chat, tell the user how to turn them on:
+If PokeBot's tools aren't available in this chat, tell the user how to turn them on, and in the same message offer to help without PokeBot instead:
 
-1. Connect PokeBot from this plugin's **Connectors** tab, or from **Customize > Connectors**, and sign in with a PokeBot account. A free account works.
-2. Turn PokeBot on for this chat with **+ > Connectors**.
+1. Connect PokeBot from this plugin's **Connectors** tab, or from **Customize > Connectors**, and sign in with a PokeBot account. A free account works. On a Team or Enterprise plan, an Owner may need to add PokeBot first.
+2. Turn PokeBot on for this chat with **+ > Connectors**. In Claude Code, run `/mcp` and sign in to pokebot instead.
 
-If the user would rather not use PokeBot, help them without it, and don't present your own plan as PokeBot's.
+If you help without PokeBot, don't present your own plan as PokeBot's.

@@ -32,13 +32,13 @@ Use PokeBot's tools `start-interview`, `submit-answer` and `end-interview`.
 - Show only the scores and feedback PokeBot returned. Don't add scores of your own.
 - Interviews are always saved to the user's PokeBot interview history, including the details used to start them (such as resume text) and the user's answers. If the user asks not to save one, tell them this before you start.
 - If PokeBot returns a usage-limit message, show it to the user as it is, including its link, and don't retry.
-- If PokeBot says the session wasn't found or isn't taking answers, tell the user and offer to start a new interview.
+- If PokeBot says the session isn't taking answers, offer the summary with `end-interview` (same session_id) or a new interview. If it says the session wasn't found, tell the user and offer to start a new interview.
 
 ## If PokeBot isn't connected
 
-If PokeBot's tools aren't available in this chat, tell the user how to turn them on:
+If PokeBot's tools aren't available in this chat, tell the user how to turn them on, and in the same message offer to help without PokeBot instead:
 
-1. Connect PokeBot from this plugin's **Connectors** tab, or from **Customize > Connectors**, and sign in with a PokeBot account. A free account works.
-2. Turn PokeBot on for this chat with **+ > Connectors**.
+1. Connect PokeBot from this plugin's **Connectors** tab, or from **Customize > Connectors**, and sign in with a PokeBot account. A free account works. On a Team or Enterprise plan, an Owner may need to add PokeBot first.
+2. Turn PokeBot on for this chat with **+ > Connectors**. In Claude Code, run `/mcp` and sign in to pokebot instead.
 
-If the user would rather not use PokeBot, help them without it, and don't present your own questions, scores or feedback as PokeBot's.
+If you help without PokeBot, don't present your own questions, scores or feedback as PokeBot's.
