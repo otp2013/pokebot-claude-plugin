@@ -24,12 +24,12 @@ If the user asks for more than one, run each. If it isn't clear which one they w
    - growth plan: timeline, intensity (light, moderate or intensive), target_skills, learning_style, preferred_formats, focus_areas.
 3. Growth plans come in four lengths: 1-month, 3-months (the default), 6-months and 1-year. For any other length, use the closest one and tell the user it was rounded.
 4. If the user shared their resume in this chat for this request, you can pass it as resume_text to `analyze-career-goals` or `analyze-skill-gap`.
-5. Show the result as PokeBot returned it. Don't change its scores, timelines or plan, or add your own. A growth plan's text covers the first 4 weeks in full; the full plan is in the copy saved to PokeBot. If the user asks for later weeks, share the saved link, and don't write those weeks yourself. If they asked not to save a growth plan, tell them that only the first 4 weeks will be shown in full.
+5. Show the result as PokeBot returned it. Don't change its scores, timelines or plan, or add your own. A growth plan's text covers the first 4 weeks in full; the full plan is in the copy saved to PokeBot. If the user asks for later weeks, share the saved link, and don't write those weeks yourself.
 6. If the result has a link to the saved copy, share it.
 
 ## Saving
 
-Results are saved to the user's PokeBot account by default. If the user asks not to save one, set save_to_account to false.
+Results are saved to the user's PokeBot account by default. If the user asks not to save one, set save_to_account to false. Before you set save_to_account to false for a growth plan, tell the user that only the first 4 weeks will be shown in full.
 
 ## Limits and errors
 
