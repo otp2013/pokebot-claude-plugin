@@ -53,7 +53,7 @@ Privacy policy: https://pokebot.ai/privacy#claude
 
 ## Support
 
-Email support@pokebot.ai. Setup guide: https://pokebot.ai/claude
+Email contact@pokebot.ai. Setup guide: https://pokebot.ai/claude
 
 ## License
 
