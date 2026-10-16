@@ -2,7 +2,7 @@
   "name": "pokebot",
   "displayName": "PokeBot.ai Career Coach",
   "version": "1.0.0",
-  "description": "Skills that run PokeBot's career tools in Claude: text mock interviews, resume scores, resume-to-job matches, cover letters and career plans, with results saved to your PokeBot account.",
+  "description": "Skills that run PokeBot's career tools in Claude: mock interviews, resume scores, resume-to-job matches, cover letters and career plans, with results saved to your PokeBot account.",
   "author": {
     "name": "PokeBot",
     "email": "contact@pokebot.ai",

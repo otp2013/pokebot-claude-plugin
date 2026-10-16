@@ -1,12 +1,12 @@
 # PokeBot.ai Career Coach
 
-PokeBot.ai Career Coach brings PokeBot's job-search tools into Claude: text mock interviews, resume scores, resume-to-job matches, cover letters and career plans. The plugin pairs PokeBot's connector with five skills. The skills tell Claude when to use each PokeBot tool and how to run it, for example asking one interview question at a time and sending only the answers you write.
+PokeBot.ai Career Coach brings PokeBot's job-search tools into Claude: mock interviews, resume scores, resume-to-job matches, cover letters and career plans. The plugin pairs PokeBot's connector with five skills. The skills tell Claude when to use each PokeBot tool and how to run it, for example asking one interview question at a time and sending only the answers you write.
 
 ## What you can do
 
 | Skill | What it does | PokeBot tools it uses |
 | --- | --- | --- |
-| mock-interview | A text mock interview for a role you choose. Each answer gets a score, feedback and a suggested answer, and you get a performance summary at the end. | start-interview, submit-answer, end-interview |
+| mock-interview | A mock interview for a role you choose. Each answer gets a score, feedback and a suggested answer, and you get a performance summary at the end. | start-interview, submit-answer, end-interview |
 | resume-score | Scores your resume out of 100, with strengths, weaknesses and recommendations. | analyze-resume |
 | job-match | Checks how well your resume matches a job description: a match score, covered and missing keywords, and tailoring advice. | match-resume-to-job |
 | cover-letter | Writes a cover letter from your resume and a job description. | generate-cover-letter |

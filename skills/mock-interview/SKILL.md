@@ -1,6 +1,6 @@
 ---
 name: mock-interview
-description: Run a text mock interview with PokeBot, one question at a time, with a score, feedback and a suggested answer after each answer and a performance summary at the end. Use when the user asks for a mock interview, interview practice, or to practice answering interview questions for a role.
+description: Run a mock interview with PokeBot, one question at a time, with a score, feedback and a suggested answer after each answer and a performance summary at the end. Use when the user asks for a mock interview, interview practice, or to practice answering interview questions for a role.
 ---
 
 # Mock interview with PokeBot
