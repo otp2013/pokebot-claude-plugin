@@ -14,7 +14,7 @@ PokeBot.ai Career Coach helps you prove you're ready for your next role: practic
 
 ## Before you start
 
-- **A PokeBot account.** A free account works. Free accounts include 20 runs a month in Claude, shared across all tools and reset on the 1st of each month (UTC). Starting an interview counts as one run; answering its questions and finishing it don't. Paid PokeBot plans use their own plan limits. You can create an account at https://app.pokebot.ai or from the sign-in page Claude opens.
+- **A PokeBot account.** A free account works. Free accounts include 20 runs a month in Claude, shared across all tools and reset on the 1st of each month (UTC). Starting an interview counts as one run; answering its questions and finishing it don't. Paid PokeBot plans keep those 20 free runs and add their own plan limits on top. You can create an account at https://app.pokebot.ai or from the sign-in page Claude opens.
 - **Code execution and file creation turned on** in Claude, under Settings > Capabilities (on Team and Enterprise plans, an Owner turns it on under Organization settings > Capabilities). Claude needs it to use skills. Without it, you can still use PokeBot through its connector.
 - **A Claude plan that shows directory plugins:** Pro, Max, Team or Enterprise.
 
